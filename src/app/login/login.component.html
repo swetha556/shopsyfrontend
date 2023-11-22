@@ -1,0 +1,206 @@
+<body>
+
+
+
+
+
+
+
+    <div class="bg">
+
+
+
+
+
+
+
+ 
+
+
+
+
+       <div class="form">
+
+
+
+
+
+
+
+        <form (ngSubmit)="onSubmit()">
+
+
+
+
+
+
+
+            <h3 class="login">Log In</h3>
+
+
+
+
+
+
+
+            <div class="form-group">
+
+
+
+
+
+
+
+                <label>Email ID</label><br>
+
+
+
+
+
+
+
+                <input type="text" class="form-control" id="useremail" [(ngModel)]="usercred.useremail"
+
+
+
+
+
+
+
+                name="useremail">
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="form-group">
+
+
+
+
+
+
+
+                <label>Password</label><br>
+
+
+
+
+
+
+
+                <input type="password" class="form-control" id="userpassword" [(ngModel)]="usercred.userpassword"
+
+
+
+
+
+
+
+                name="userpassword">
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="form-group">
+
+
+
+
+
+
+
+                <label>Role</label><br>
+
+
+
+
+
+
+
+                <input type="text" class="form-control" id="role" [(ngModel)]="usercred.role"
+
+
+
+
+
+
+
+                name="role">
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <br/>
+
+
+
+
+
+
+
+            <button class="button" type="submit">Log in</button><a routerLink="/register" >Not a member? Register</a>
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+       </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>

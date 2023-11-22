@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+margin: 100px;
+}
+h3{
+    color: brown;
+    font-weight: bold;
+}
+
+.div{
+
+    border:2px solid blue;
+}

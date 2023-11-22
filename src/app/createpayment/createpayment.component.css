@@ -1,0 +1,17 @@
+.row{
+    background-image: linear-gradient(0deg, rgb(164, 237, 181), rgb(56, 152, 230));
+    background-image: linear-gradient(rgba(0,0,0,0.65),white),url(ccc.jpg);
+}
+ .card{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 350px;
+    border: 3px solid beige;
+    background-color: rgb(156, 232, 225);
+    margin-bottom: 50px;
+
+ }
+
+ .btn {
+    margin-left:180px;
+ }

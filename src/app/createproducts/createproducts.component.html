@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="card  ">
+        
+            <h1 class="text-center">Create Products</h1>
+            <hr/>
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit(products)">
+                    
+                    <div class="form-group">
+
+                        <label>BrandName</label>
+
+                        <input type="text" class="form-control" id="brandname" [(ngModel)]="products.brandname"
+
+                        name="brandname">
+
+                    </div>
+                    <div class="form-group">
+                        <label>ProductName</label>
+                        <input type="text" class="form-control" id="productname" [(ngModel)]="products.productname" 
+                        name="productname">
+                    </div>
+                
+                    
+                    <div class="form-group">
+                        <label>Discount</label>
+                        <input type="text" class="form-control" id="discount" [(ngModel)]="products.discount" 
+                        name="discount">
+                    </div>
+                    <div class="form-group">
+                        <label>Buyingprice</label>
+                        <input type="text" class="form-control" id="buyingprice" [(ngModel)]="products.buyingprice" 
+                        name="buyingprice">
+                    </div>
+
+                    
+                    
+                   
+                  
+                   
+                    
+                    
+                    <br/><br/><br/>
+                    <button class="btn btn-success" type="submit" (click)="showproduct()">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+ 

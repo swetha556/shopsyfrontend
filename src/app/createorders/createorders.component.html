@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="card "><br>
+        
+            <h1 class="text-center">Delivery Address</h1>
+            <hr/>
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit()">
+                    
+                    <div class="form-group">
+                        <label>ProductName</label>
+                        <input type="text" class="form-control" id="productname" [(ngModel)]="orders.productname" 
+                        name="productname">
+                    </div>
+                    <div class="form-group">
+                        <label>FirstName</label>
+                        <input type="text" class="form-control" id="firstName" [(ngModel)]="orders.firstName" 
+                        name="firstName">
+                    </div>
+                    <div class="form-group">
+                        <label>LastName</label>
+                        <input type="text" class="form-control" id="lastName" [(ngModel)]="orders.lastName" 
+                        name="lastName">
+                    </div>
+                    <div class="form-group">
+                        <label>MobileNumber</label>
+                        <input type="text" class="form-control" id="mobileNumber" [(ngModel)]="orders.mobileNumber" 
+                        name="mobileNumber">
+                    </div>
+                    <div class="form-group">
+                        <label>AlternateMobileNumber</label>
+                        <input type="text" class="form-control" id="alternateMobileNumber" [(ngModel)]="orders.alternateMobileNumber" 
+                        name="alternateMobileNumber">
+                    </div>
+                    <div class="form-group">
+                        <label>ShippingAddress</label>
+                        <input type="text" class="form-control" id="shippingAddress" [(ngModel)]="orders.shippingAddress" 
+                        name="shippingAddress">
+                    </div>
+                    <br/>
+                    <button class="btn btn-success" (click)="Paymentopen()" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+ 
